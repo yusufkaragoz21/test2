@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsStokHar" targetNamespace="http://tempuri.org/dsStokHar.xsd" xmlns:mstns="http://tempuri.org/dsStokHar.xsd" xmlns="http://tempuri.org/dsStokHar.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsStokHar" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsStokHar" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsStokHar">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="stokharmain" msprop:Generator_RowClassName="stokharmainRow" msprop:Generator_RowEvHandlerName="stokharmainRowChangeEventHandler" msprop:Generator_RowDeletedName="stokharmainRowDeleted" msprop:Generator_RowDeletingName="stokharmainRowDeleting" msprop:Generator_RowEvArgName="stokharmainRowChangeEvent" msprop:Generator_TablePropName="stokharmain" msprop:Generator_RowChangedName="stokharmainRowChanged" msprop:Generator_UserTableName="stokharmain" msprop:Generator_RowChangingName="stokharmainRowChanging" msprop:Generator_TableClassName="stokharmainDataTable" msprop:Generator_TableVarName="tablestokharmain">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_UserColumnName="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnVarNameInTable="columnid" type="xs:int" minOccurs="0" />
+              <xs:element name="fis_no" msprop:Generator_UserColumnName="fis_no" msprop:Generator_ColumnPropNameInTable="fis_noColumn" msprop:Generator_ColumnPropNameInRow="fis_no" msprop:Generator_ColumnVarNameInTable="columnfis_no" type="xs:string" minOccurs="0" />
+              <xs:element name="belge_no" msprop:Generator_UserColumnName="belge_no" msprop:Generator_ColumnPropNameInTable="belge_noColumn" msprop:Generator_ColumnPropNameInRow="belge_no" msprop:Generator_ColumnVarNameInTable="columnbelge_no" type="xs:int" minOccurs="0" />
+              <xs:element name="aciklama" msprop:Generator_UserColumnName="aciklama" msprop:Generator_ColumnPropNameInTable="aciklamaColumn" msprop:Generator_ColumnPropNameInRow="aciklama" msprop:Generator_ColumnVarNameInTable="columnaciklama" type="xs:string" minOccurs="0" />
+              <xs:element name="firma_id" msprop:Generator_UserColumnName="firma_id" msprop:Generator_ColumnPropNameInTable="firma_idColumn" msprop:Generator_ColumnPropNameInRow="firma_id" msprop:Generator_ColumnVarNameInTable="columnfirma_id" type="xs:int" minOccurs="0" />
+              <xs:element name="firma_kod" msprop:Generator_UserColumnName="firma_kod" msprop:Generator_ColumnPropNameInTable="firma_kodColumn" msprop:Generator_ColumnPropNameInRow="firma_kod" msprop:Generator_ColumnVarNameInTable="columnfirma_kod" type="xs:string" minOccurs="0" />
+              <xs:element name="depo_id" msprop:Generator_UserColumnName="depo_id" msprop:Generator_ColumnPropNameInTable="depo_idColumn" msprop:Generator_ColumnPropNameInRow="depo_id" msprop:Generator_ColumnVarNameInTable="columndepo_id" type="xs:int" minOccurs="0" />
+              <xs:element name="depo_kod" msprop:Generator_UserColumnName="depo_kod" msprop:Generator_ColumnPropNameInTable="depo_kodColumn" msprop:Generator_ColumnPropNameInRow="depo_kod" msprop:Generator_ColumnVarNameInTable="columndepo_kod" type="xs:string" minOccurs="0" />
+              <xs:element name="fis_tipi" msprop:Generator_UserColumnName="fis_tipi" msprop:Generator_ColumnPropNameInTable="fis_tipiColumn" msprop:Generator_ColumnPropNameInRow="fis_tipi" msprop:Generator_ColumnVarNameInTable="columnfis_tipi" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="stokhardetail" msprop:Generator_RowClassName="stokhardetailRow" msprop:Generator_RowEvHandlerName="stokhardetailRowChangeEventHandler" msprop:Generator_RowDeletedName="stokhardetailRowDeleted" msprop:Generator_RowDeletingName="stokhardetailRowDeleting" msprop:Generator_RowEvArgName="stokhardetailRowChangeEvent" msprop:Generator_TablePropName="stokhardetail" msprop:Generator_RowChangedName="stokhardetailRowChanged" msprop:Generator_UserTableName="stokhardetail" msprop:Generator_RowChangingName="stokhardetailRowChanging" msprop:Generator_TableClassName="stokhardetailDataTable" msprop:Generator_TableVarName="tablestokhardetail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_UserColumnName="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnVarNameInTable="columnid" type="xs:int" minOccurs="0" />
+              <xs:element name="urun_id" msdata:Caption="fisno" msprop:Generator_UserColumnName="urun_id" msprop:Generator_ColumnPropNameInTable="urun_idColumn" msprop:Generator_ColumnPropNameInRow="urun_id" msprop:Generator_ColumnVarNameInTable="columnurun_id" type="xs:string" minOccurs="0" />
+              <xs:element name="urun_kod" msdata:Caption="belgeno" msprop:Generator_UserColumnName="urun_kod" msprop:Generator_ColumnPropNameInTable="urun_kodColumn" msprop:Generator_ColumnPropNameInRow="urun_kod" msprop:Generator_ColumnVarNameInTable="columnurun_kod" type="xs:string" minOccurs="0" />
+              <xs:element name="renk_id" msdata:Caption="aciklama" msprop:Generator_UserColumnName="renk_id" msprop:Generator_ColumnPropNameInTable="renk_idColumn" msprop:Generator_ColumnPropNameInRow="renk_id" msprop:Generator_ColumnVarNameInTable="columnrenk_id" type="xs:string" minOccurs="0" />
+              <xs:element name="renk_kod" msdata:Caption="tarih" msprop:Generator_UserColumnName="renk_kod" msprop:Generator_ColumnPropNameInTable="renk_kodColumn" msprop:Generator_ColumnPropNameInRow="renk_kod" msprop:Generator_ColumnVarNameInTable="columnrenk_kod" type="xs:string" minOccurs="0" />
+              <xs:element name="birim_id" msdata:Caption="firmaid" msprop:Generator_UserColumnName="birim_id" msprop:Generator_ColumnPropNameInTable="birim_idColumn" msprop:Generator_ColumnPropNameInRow="birim_id" msprop:Generator_ColumnVarNameInTable="columnbirim_id" type="xs:string" minOccurs="0" />
+              <xs:element name="birim_kod" msdata:Caption="firmakod" msprop:Generator_UserColumnName="birim_kod" msprop:Generator_ColumnPropNameInTable="birim_kodColumn" msprop:Generator_ColumnPropNameInRow="birim_kod" msprop:Generator_ColumnVarNameInTable="columnbirim_kod" type="xs:string" minOccurs="0" />
+              <xs:element name="miktar" msdata:Caption="depoid" msprop:Generator_UserColumnName="miktar" msprop:Generator_ColumnPropNameInTable="miktarColumn" msprop:Generator_ColumnPropNameInRow="miktar" msprop:Generator_ColumnVarNameInTable="columnmiktar" type="xs:string" minOccurs="0" />
+              <xs:element name="fis_id" msprop:Generator_UserColumnName="fis_id" msprop:Generator_ColumnPropNameInTable="fis_idColumn" msprop:Generator_ColumnPropNameInRow="fis_id" msprop:Generator_ColumnVarNameInTable="columnfis_id" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:stokharmain" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
